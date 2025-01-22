@@ -7,7 +7,7 @@ const User = () => {
  
 
     const loaderUser = async()=>{ 
-        const result= await axios.get("http://localhost/react_project/Backend/user.php");
+        const result= await axios.get("http://localhost/react_project/React-Projcet/Backend/user.php");
         setUser(result.data.phpuser);
         console.log(result.data.phpuser);
       };
