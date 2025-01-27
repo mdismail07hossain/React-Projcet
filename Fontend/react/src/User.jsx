@@ -21,12 +21,12 @@ const User = () => {
             <div className="overflow-x-auto p-6">
       <table className="min-w-full bg-white border border-gray-300 rounded-lg shadow-md">
         <thead>
-          <tr className="bg-gray-200">
-            <th className="px-4 py-2 text-left text-sm font-semibold text-gray-600">ID</th>
-            <th className="px-4 py-2 text-left text-sm font-semibold text-gray-600">Name</th>
-            <th className="px-4 py-2 text-left text-sm font-semibold text-gray-600">Email</th>
-            <th className="px-4 py-2 text-left text-sm font-semibold text-gray-600">Number</th>
-            <th className="px-4 py-2 text-left text-sm font-semibold text-gray-600">Action</th>
+          <tr className="bg-gray-800">
+            <th className="px-4 py-2 text-left text-sm font-semibold text-gray-100">ID</th>
+            <th className="px-4 py-2 text-left text-sm font-semibold text-gray-100">Name</th>
+            <th className="px-4 py-2 text-left text-sm font-semibold text-gray-100">Email</th>
+            <th className="px-4 py-2 text-left text-sm font-semibold text-gray-100">Number</th>
+            <th className="px-4 py-2 text-left text-sm font-semibold text-gray-100">Action</th>
           </tr>
         </thead>
         <tbody>
