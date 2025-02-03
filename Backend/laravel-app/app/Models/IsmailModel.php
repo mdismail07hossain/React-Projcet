@@ -7,6 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class IsmailModel extends Model
 {
     use HasFactory;
-    protected $table="ismails";
+    protected $table="students";
     
 }

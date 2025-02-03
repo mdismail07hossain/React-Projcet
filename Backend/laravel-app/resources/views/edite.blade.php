@@ -61,17 +61,17 @@
 <body>
     <div class="form-container">
         <h2>Contact Us</h2>
-        <form action="{{ route('editestore')}}" method="POST">
+        <form action="{{ route('editeStore')}}" method="POST">
             @csrf
-            <input type="hidden" name="id" id="id">
+            <input type="text" name="student_id" value="{{ $data->id }}">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" value="{{$datas->name}}" >
+            <input type="text" id="name" name="name" value="{{$data->name}}" >
 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" value="{{$datas->email}}" >
+            <input type="text" id="email" name="email" value="{{$data->email}}" >
 
             <label for="contact">Contact:</label>
-            <input id="contact" name="contact" value="{{$datas->contact}}"></input>
+            <input id="contact" type="text" name="contact" value="{{$data->contact}}"></input>
 
             <button type="submit">Submit</button>
         </form>

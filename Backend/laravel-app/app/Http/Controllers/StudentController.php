@@ -39,15 +39,15 @@ class StudentController extends Controller
     return Redirect::to('/table');
    }
    public function update($id){
-    $datas = SutdentModel::find($id);
-    return view('edite',compact('datas'));
+    $data = SutdentModel::find($id);
+    return view('edite',compact('data'));
    }
-   public function editestore(Request $request){
-    $datas = SutdentModel::find($request->id);
-    $datas->name = $request->name;
-    $datas->email = $request->email;
-    $datas->contact = $request->contact;
-    $datas->save();
+   public function editeStore(Request $request){
+    $data = SutdentModel::find($request->student_id);
+    $data->name = $request->name;
+    $data->email = $request->email;
+    $data->contact = $request->contact;
+    $data->save();
     return Redirect::to('/table');
    }
 
