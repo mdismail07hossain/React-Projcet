@@ -10,6 +10,7 @@ class MyController extends Controller
 {
     public function show(){
        $students = IsmailModel::all();
+       
        return view("tablee",compact("students"));
     }
 }
