@@ -76,19 +76,19 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="../mailbox/mailbox.html" class="nav-link">
+                <a href="/product" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>New Packages</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../mailbox/compose.html" class="nav-link">
+                <a href="/type" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Old Pakages</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../mailbox/read-mail.html" class="nav-link">
+                <a href="/manage-type" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>All Packages</p>
                 </a>
